@@ -80,7 +80,7 @@ fun FormularioScreen() {
         Row( horizontalArrangement = Arrangement.SpaceBetween){
 
 
-        // Cuadro azul centrado
+        // Cuadro
         Box(
             modifier = Modifier
                 .size(100.dp)
@@ -90,7 +90,7 @@ fun FormularioScreen() {
 
         Spacer(modifier = Modifier.width(16.dp))
 
-        // Texto con scroll vertical
+        // Texto
         Box(
             modifier = Modifier
                 .fillMaxWidth()
@@ -157,7 +157,7 @@ fun FormularioScreen() {
 
             Spacer(modifier = Modifier.height(32.dp)) // Espacio entre formulario y resultados
 
-            // Mostrar datos a la derecha
+            // datos a la derecha
             Column(
                 modifier = Modifier.fillMaxWidth(0.8f)
             ) {
@@ -172,7 +172,7 @@ fun FormularioScreen() {
                 Spacer(modifier = Modifier.height(8.dp))
             }
         }
-        // Botón "Actualizar"
+        // actualizar
         Button(
             onClick = {
                 nombreMostrado = nombre
